@@ -21,9 +21,9 @@
 
       <!-- Middle Links -->
       <div class="hidden md:flex space-x-6 text-gray-700">
-        <a href="#hospitals" class="hover:text-pink-600 font-medium">Hospitals</a>
+        <a href="#hospitals" class="hover:text-pink-600 font-medium">About PCOS</a>
         <a href="#nonprofits" class="hover:text-pink-600 font-medium">Non-profit Organizations</a>
-        <a href="#about" class="hover:text-pink-600 font-medium">About PCOS</a>
+        <a href="#about" class="hover:text-pink-600 font-medium">Hospitals</a>
       </div>
 
       <!-- Chat Button -->
@@ -56,7 +56,7 @@
 </template>
 
 <script setup>
-
+  
 </script>
 
 <style scoped>
