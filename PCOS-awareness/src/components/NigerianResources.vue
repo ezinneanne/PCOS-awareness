@@ -11,6 +11,10 @@
           We have gathered some pointers for you to explore...
         </p>
         medic - <i class="fas fa-user-md"></i>
+        communities - <i class="fas fa-users"></i>
+        support - <i class="fas fa-hand-holding-heart"></i>
+        lifestyle - <i class="fas fa-running"></i>
+
         <br/>
         <button class="bg-pink-600 hover:bg-pink-500 text-white px-4 py-2 rounded-full transition">
           Read More
