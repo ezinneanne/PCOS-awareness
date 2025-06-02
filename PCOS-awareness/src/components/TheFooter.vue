@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-700 text-white text-center p-6 mt-auto font"> 
+  <footer class="bg-gray-800 text-white text-center p-6 mt-auto font"> 
     <p>&copy; {{ new Date().getFullYear() }} PCOS Awareness Nigeria. All rights reserved.</p>
     <p class="text-sm text-gray-300 mt-1">
       Disclaimer: This website provides informational content and an AI assistant. 

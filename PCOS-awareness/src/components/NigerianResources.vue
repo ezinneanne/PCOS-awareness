@@ -1,28 +1,23 @@
 <template>
   <section class="relative min-h-screen flex flex-col justify-between overflow-hidden container mx-auto px-4 py-8 font">
-    <!-- Section Title -->
-    <h1 class="text-4xl font-extrabold text-pink-600 mb-8 text-center p-4">
-      About Polycystic Ovary Syndrome(PCOS)
-    </h1>
-
     <!-- Content Wrapper -->
     <div class="flex flex-col-reverse md:flex-row items-center justify-between h-full gap-6">
+
       <!-- Text Content -->
       <div class="md:w-1/2 p-4 text-center md:text-left">
-        <h2 class="text-2xl font-bold mb-4 text-gray-800">A Brief Overview</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-800">PCOS Resources in Nigeria</h2>
         <p class="text-gray-700 leading-relaxed">
-            This platform is dedicated to raising awareness about Polycystic Ovary Syndrome (PCOS) among women in Nigeria. 
-            PCOS is a common hormonal disorder that can affect women of reproductive age, and understanding it is the first step towards managing it effectively.
-            We aim to provide clear information, support, and resources to help you navigate your health journey. 
-            Explore our sections to learn more about PCOS, its symptoms, management, and connect with our AI assistant for quick answers...
+          Finding the right support and medical care is crucial when dealing with PCOS. 
+          We have gathered some pointers for you to explore...
         </p>
-        <br />
+        medic - <i class="fas fa-user-md"></i>
+        <br/>
         <button class="bg-pink-600 hover:bg-pink-500 text-white px-4 py-2 rounded-full transition">
           Read More
         </button>
       </div>
 
-      <!-- Image Content -->
+      <!-- Icons Content -->
       <div class="md:w-1/2 p-4 flex justify-center">
         <img
           src="../assets/nigwomen.jpg"
