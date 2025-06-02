@@ -15,15 +15,15 @@
             <path d="M47 17c2 2-2 9-4 11s-4 1-6-1-2-4 0-6 9-6 11-4z" fill="#f8bbd0"/>
             <path d="M17 47c-2-2 2-9 4-11s4-1 6 1 2 4 0 6-9 6-11 4z" fill="#f8bbd0"/>
           </svg>
-        <span>PCOS Awareness</span>
+        <span class="text-pink-600">PCOS Awareness</span>
       </div>
 
 
       <!-- Middle Links -->
       <div class="hidden md:flex space-x-6 text-gray-700">
-        <a href="#hospitals" class="hover:text-pink-600 font-medium">About PCOS</a>
-        <a href="#nonprofits" class="hover:text-pink-600 font-medium">Non-profit Organizations</a>
-        <a href="#about" class="hover:text-pink-600 font-medium">Hospitals</a>
+        <a href="#about" class="hover:text-pink-600 font-bold">About PCOS</a>
+        <a href="#healthorgs" class="hover:text-pink-600 font-bold">Health Organizations</a>
+        <a href="#about" class="hover:text-pink-600 font-bold">Hospitals</a>
       </div>
 
       <!-- Chat Button -->
