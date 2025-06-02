@@ -35,7 +35,7 @@
 
       <!-- Image Side -->
       <div class="md:w-1/2 mb-8 md:mb-0">
-        <img src="https://via.placeholder.com/400x300?text=Nigerian+Women+Illustration" alt="PCOS Awareness" class="rounded-lg shadow-md w-full" />
+        <img src="../assets/images.jpeg" alt="PCOS Awareness" class="rounded-lg shadow-md w-full" />
       </div>
     </section>
   </div>
