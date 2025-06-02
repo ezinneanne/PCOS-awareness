@@ -1,9 +1,23 @@
 <template>
-  <div>
+  <div class="font">
     <!-- Navbar -->
     <nav class="bg-white shadow-md px-4 py-3 flex justify-between items-center">
       <!-- Logo -->
-      <div class="text-xl font-bold text-pink-600">PCOS Awareness</div>
+      <div class="flex items-center text-xl font-bold text-pink-600">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32">
+            <circle cx="32" cy="32" r="6" fill="#e91e63"/>
+            <path d="M32 10c3 0 5 7 5 10s-2 4-5 4-5-1-5-4 2-10 5-10z" fill="#f8bbd0"/>
+            <path d="M32 54c-3 0-5-7-5-10s2-4 5-4 5 1 5 4-2 10-5 10z" fill="#f8bbd0"/>
+            <path d="M10 32c0-3 7-5 10-5s4 2 4 5-1 5-4 5-10-2-10-5z" fill="#f8bbd0"/>
+            <path d="M54 32c0 3-7 5-10 5s-4-2-4-5 1-5 4-5 10 2 10 5z" fill="#f8bbd0"/>
+            <path d="M17 17c2-2 9 2 11 4s1 4-1 6-4 2-6 0-6-9-4-11z" fill="#f8bbd0"/>
+            <path d="M47 47c-2 2-9-2-11-4s-1-4 1-6 4-2 6 0 6 9 4 11z" fill="#f8bbd0"/>
+            <path d="M47 17c2 2-2 9-4 11s-4 1-6-1-2-4 0-6 9-6 11-4z" fill="#f8bbd0"/>
+            <path d="M17 47c-2-2 2-9 4-11s4-1 6 1 2 4 0 6-9 6-11 4z" fill="#f8bbd0"/>
+          </svg>
+        <span>PCOS Awareness</span>
+      </div>
+
 
       <!-- Middle Links -->
       <div class="hidden md:flex space-x-6 text-gray-700">
@@ -14,7 +28,7 @@
 
       <!-- Chat Button -->
       <div>
-        <button class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full transition">
+        <button class="bg-pink-600 hover:bg-pink-500 text-white px-4 py-2 rounded-full transition">
           Chat with AI Bot
         </button>
       </div>
@@ -28,23 +42,25 @@
         <p class="text-lg text-gray-600 mb-6">
           Speak with our AI assistant for early insights and support around Polycystic Ovary Syndrome. It’s fast, confidential, and supportive.
         </p>
-        <button class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-full transition">
+        <button class="bg-pink-600 hover:bg-pink-500 text-white px-6 py-3 rounded-full transition">
           Start Chatting
         </button>
       </div>
 
       <!-- Image Side -->
       <div class="md:w-1/2 mb-8 md:mb-0">
-        <img src="https://via.placeholder.com/400x300?text=Nigerian+Women+Illustration" alt="PCOS Awareness" class="rounded-lg shadow-md w-full" />
+        <img src="../assets/images.jpeg" alt="Female Reproductive System" class="rounded-lg shadow-md w-full" />
       </div>
     </section>
   </div>
 </template>
 
 <script setup>
-// No script needed unless adding interactivity
+
 </script>
 
 <style scoped>
-/* Optional additional styles */
+  .font {
+    font-family: 'Kiwi Maru', serif;
+  }
 </style>
