@@ -34,38 +34,50 @@
           </ul>
         </div>
 
-        <!-- Newsletter -->
+        
+      <!-- Newsletter -->
         <div class="md:w-1/3">
           <h4 class="text-2xl font-bold mb-4 text-white">Newsletter</h4>
           <p class="text-white mb-4">
             Subscribe to our newsletter for exclusive guides and updates on PCOS.
           </p>
-          <form class="flex flex-col sm:flex-row gap-2">
+
+          <!-- Responsive Form -->
+          <form class="flex flex-col sm:flex-row flex-wrap gap-2">
             <input
               type="email"
               placeholder="Your email"
               required
-              class="flex-1 px-4 py-2 rounded-md border border-gray-400 bg-gray-700 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
+              class="w-full sm:flex-1 px-4 py-2 rounded-md border border-gray-400 bg-gray-700 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
             />
             <button
               type="submit"
-              class="bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-md text-white font-medium"
+              class="w-full sm:w-auto bg-gray-700 hover:bg-gray-500 px-4 py-2 rounded-md text-white font-medium"
             >
               <a href="https://medium.com/@ezinneanne/subscribe">Subscribe</a>
             </button>
           </form>
-          <div class="flex gap-4 mt-6">
-            <a href="https://www.facebook.com/anne.hilary.779" class="hover:text-gray-400" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="https://www.instagram.com/ezinneanneemilia/" class="hover:text-gray-400" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="https://twitter.com/ezinne_anne" class="hover:text-gray-400" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+
+          <!-- Social Icons -->
+          <div class="flex flex-wrap justify-center sm:justify-start gap-x-4 gap-y-2 mt-6">
+            <a href="https://www.facebook.com/anne.hilary.779" class="hover:text-gray-400" aria-label="Facebook">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/ezinneanneemilia/" class="hover:text-gray-400" aria-label="Instagram">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/ezinne_anne" class="hover:text-gray-400" aria-label="Twitter">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
           </div>
         </div>
       </div>
 
-      <!-- Divider and Bottom Text -->
-      <hr class="border-gray-600 my-4" />
+      <!-- Divider -->
+      <hr class="border-gray-600 my-6" />
 
-      <div class="text-sm text-gray-400 text-center">
+      <!-- Footer Note -->
+      <div class="text-sm text-gray-400 text-center break-words">
         <p>&copy; {{ new Date().getFullYear() }} PCOS Awareness Nigeria. All rights reserved.</p>
         <p class="mt-2">
           Disclaimer: This website provides informational content and an AI assistant.
