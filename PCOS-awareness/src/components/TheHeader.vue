@@ -22,8 +22,7 @@
       <!-- Middle Links -->
       <div class="hidden md:flex space-x-6 text-gray-700">
         <a href="#about" class="hover:text-pink-600 font-bold">About PCOS</a>
-        <a href="#healthorgs" class="hover:text-pink-600 font-bold">Health Organizations</a>
-        <a href="#about" class="hover:text-pink-600 font-bold">Hospitals</a>
+        <a href="#resources" class="hover:text-pink-600 font-bold">PCOS Resources</a>
       </div>
 
       <!-- Chat Button -->
