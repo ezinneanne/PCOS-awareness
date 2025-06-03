@@ -19,7 +19,7 @@
             </svg>
             <span class="text-white">PCOS Awareness</span>
           </div>
-          <p class="text-gray-300">
+          <p class="text-white">
             Creating awareness and saving lives through accessible, local resources.
           </p>
         </div>
@@ -37,7 +37,7 @@
         <!-- Newsletter -->
         <div class="md:w-1/3">
           <h4 class="text-2xl font-bold mb-4 text-white">Newsletter</h4>
-          <p class="text-gray-300 mb-4">
+          <p class="text-white mb-4">
             Subscribe to our newsletter for exclusive guides and updates on PCOS.
           </p>
           <form class="flex flex-col sm:flex-row gap-2">
@@ -55,19 +55,19 @@
             </button>
           </form>
           <div class="flex gap-4 mt-6">
-            <a href="https://facebook.com" class="hover:text-gray-400" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="https://instagram.com" class="hover:text-gray-400" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/anne.hilary.779" class="hover:text-gray-400" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/ezinneanneemilia/" class="hover:text-gray-400" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="https://twitter.com/ezinne_anne" class="hover:text-gray-400" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
           </div>
         </div>
       </div>
 
       <!-- Divider and Bottom Text -->
-      <hr class="border-gray-600 my-8" />
+      <hr class="border-gray-600 my-4" />
 
       <div class="text-sm text-gray-400 text-center">
         <p>&copy; {{ new Date().getFullYear() }} PCOS Awareness Nigeria. All rights reserved.</p>
-        <p class="mt-1">
+        <p class="mt-2">
           Disclaimer: This website provides informational content and an AI assistant.
           It is not a substitute for professional medical advice, diagnosis, or treatment.
           Always consult a physician or qualified health provider in Nigeria for any medical concerns.
