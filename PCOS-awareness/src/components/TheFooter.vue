@@ -55,8 +55,8 @@
             </button>
           </form>
           <div class="flex gap-4 mt-6">
-            <a href="https://facebook.com" class="hover:text-gray-400" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="https://instagram.com" class="hover:text-gray-400" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/anne.hilary.779" class="hover:text-gray-400" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/ezinneanneemilia/" class="hover:text-gray-400" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="https://twitter.com/ezinne_anne" class="hover:text-gray-400" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
           </div>
         </div>
