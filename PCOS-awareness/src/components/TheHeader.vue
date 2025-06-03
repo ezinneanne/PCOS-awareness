@@ -27,7 +27,7 @@
 
         <!-- Chat Button -->
         <div class="hidden md:block">
-          <button class="bg-pink-600 hover:bg-pink-500 text-white px-4 py-2 rounded-full transition">
+          <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition">
             Chat with AI Bot
           </button>
         </div>
@@ -52,7 +52,7 @@
         <div v-if="isOpen" class="md:hidden mt-4 space-y-4 text-center">
           <a href="#about" class="block text-gray-700 hover:text-pink-600 font-bold">About PCOS</a>
           <a href="#resources" class="block text-gray-700 hover:text-pink-600 font-bold">PCOS Resources</a>
-          <button class="bg-pink-600 hover:bg-pink-500 text-white px-4 py-2 rounded-full transition w-50">
+          <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition w-50">
             Chat with AI Bot
           </button>
         </div>
@@ -67,7 +67,7 @@
         <p class="text-lg text-gray-600 mb-6">
           Speak with our AI assistant for early insights and support around Polycystic Ovary Syndrome. It’s fast, confidential, and supportive.
         </p>
-        <button class="bg-pink-600 hover:bg-pink-500 text-white px-6 py-3 rounded-full transition">
+        <button class="bg-pink-600 hover:bg-pink-300 text-white px-6 py-3 rounded-full transition">
           Start Chatting
         </button>
       </div>
