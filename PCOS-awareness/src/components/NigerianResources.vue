@@ -10,7 +10,7 @@
           Finding the right support and medical care is crucial when dealing with PCOS. 
           We have gathered some pointers for you to explore...
         </p>
-        medic - <i class="fas fa-user-md"></i>
+        
         <br/>
         <button class="bg-pink-600 hover:bg-pink-500 text-white px-4 py-2 rounded-full transition">
           Read More
@@ -19,11 +19,14 @@
 
       <!-- Icons Content -->
       <div class="md:w-1/2 p-4 flex justify-center">
-        <img
-          src="../assets/nigwomen.jpg"
-          alt="Nigerian women in a hospital"
-          class="w-full max-w-sm md:max-w-full h-auto rounded-lg shadow-lg object-cover"
-        />
+        <div><i class="fas fa-user-md"></i> <h2>Medical Professionals</h2><p>Finding the right support and medical care is crucial when dealing with PCOS. 
+          We have gathered some pointers for you to explore...</p></div>
+        <div><i class="fas fa-users"></i> <h2>PCOS Communities</h2><p>Finding the right support and medical care is crucial when dealing with PCOS. 
+          We have gathered some pointers for you to explore...</p></div>
+        <div><i class="fas fa-hand-holding-heart"></i> <h2>Support Groups</h2><p>Finding the right support and medical care is crucial when dealing with PCOS. 
+          We have gathered some pointers for you to explore...</p></div>
+        <div><i class="fas fa-running"></i> <h2>Lifestyle and Wellness</h2><p>Finding the right support and medical care is crucial when dealing with PCOS. 
+          We have gathered some pointers for you to explore...</p></div>
       </div>
     </div>
   </section>
