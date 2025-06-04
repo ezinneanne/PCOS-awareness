@@ -21,15 +21,18 @@
 
         <!-- Desktop Middle Links -->
         <div class="hidden md:flex space-x-6 text-gray-700">
-          <a href="#about" class="hover:text-pink-600 font-bold">About PCOS</a>
-          <a href="#resources" class="hover:text-pink-600 font-bold">PCOS Resources</a>
+          <router-link to="/" class="hover:text-pink-600 font-bold">Home</router-link>
+          <router-link to="/about" class="hover:text-pink-600 font-bold">About PCOS</router-link>
+          <router-link to="/resources" class="hover:text-pink-600 font-bold">PCOS Resources</router-link>
         </div>
 
         <!-- Chat Button -->
         <div class="hidden md:block">
-          <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition">
-            Chat with AI Bot
-          </button>
+           <router-link to="/pcosbot">
+           <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition">
+             Chat with AI Bot
+           </button>
+           </router-link>
         </div>
 
         <!-- Hamburger / Close Button -->
