@@ -53,20 +53,25 @@
       <!-- Mobile Menu -->
       <transition name="fade">
         <div v-if="isOpen" class="md:hidden mt-4 space-y-4 text-center">
-          <router-link to="/" class="hover:text-pink-600 font-bold">Home</router-link>
-          <router-link to="/about" class="hover:text-pink-600 font-bold">About PCOS</router-link>
-          <router-link to="/resources" class="hover:text-pink-600 font-bold">PCOS Resources</router-link>
-          <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition w-50">
-            Chat with AI Bot
-          </button>
-        </div>
+          <router-link to="/about" class="block text-gray-700 hover:text-pink-600 font-bold">
+          About PCOS
+       </router-link>
+       <router-link to="/resources" class="block text-gray-700 hover:text-pink-600 font-bold">
+        PCOS Resources
+       </router-link>
+       <router-link to="/pcosbot">
+       <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition w-50">
+         Chat with AI Bot
+       </button>
+       </router-link>
+      </div>
       </transition>
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-pink-50 py-12 px-4 md:px-12 flex flex-col md:flex-row items-center">
+    <section class="bg-pink-50 py-12">
       <!-- Text Side -->
-      <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+      <div class="container-standard flex flex-col md:flex-row items-center">
         <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Let’s Talk About PCOS</h1>
         <p class="text-lg text-gray-600 mb-6">
           Speak with our AI assistant for early insights and support around Polycystic Ovary Syndrome. It’s fast, confidential, and supportive.
