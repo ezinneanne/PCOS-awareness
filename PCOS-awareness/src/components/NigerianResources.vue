@@ -1,6 +1,6 @@
 <template>
   <section class="w-full min-h-screen bg-pink-50 py-16 font">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-10">
+    <div class="container-standard flex flex-col md:flex-row items-center justify-between gap-10">
       
       <!-- Text Content (comes first on small screens) -->
       <div class="md:w-1/2 text-center md:text-left">
