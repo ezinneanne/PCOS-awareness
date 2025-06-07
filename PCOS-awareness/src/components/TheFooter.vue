@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-gray-800 text-white font pt-10 px-4">
-    <section class="max-w-7xl mx-auto w-full">
+  <footer class="bg-gray-800 text-white font pt-10">
+    <section class="container-standard w-full">
       <div class="flex flex-col md:flex-row justify-between gap-10">
         
         <!-- Logo and About -->
@@ -72,12 +72,13 @@
           </div>
         </div>
       </div>
+    </section>
 
       <!-- Divider -->
       <hr class="border-gray-600 my-6" />
 
       <!-- Footer Note -->
-      <div class="text-sm text-gray-400 text-center break-words">
+      <div class="container-standard w-full text-sm text-gray-400 text-center break-words">
         <p>&copy; {{ new Date().getFullYear() }} PCOS Awareness Nigeria. All rights reserved.</p>
         <p class="mt-2">
           Disclaimer: This website provides informational content and an AI assistant.
@@ -85,7 +86,6 @@
           Always consult a physician or qualified health provider in Nigeria for any medical concerns.
         </p>
       </div>
-    </section>
   </footer>
 </template>
 

@@ -5,7 +5,7 @@
       <div class="flex justify-between items-center">
         <!-- Logo -->
         <div class="flex items-center text-xl font-bold text-pink-600">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32" aria-hidden="true">
             <circle cx="32" cy="32" r="6" fill="#e91e63"/>
             <path d="M32 10c3 0 5 7 5 10s-2 4-5 4-5-1-5-4 2-10 5-10z" fill="#f8bbd0"/>
             <path d="M32 54c-3 0-5-7-5-10s2-4 5-4 5 1 5 4-2 10-5 10z" fill="#f8bbd0"/>
@@ -16,34 +16,32 @@
             <path d="M47 17c2 2-2 9-4 11s-4 1-6-1-2-4 0-6 9-6 11-4z" fill="#f8bbd0"/>
             <path d="M17 47c-2-2 2-9 4-11s4-1 6 1 2 4 0 6-9 6-11 4z" fill="#f8bbd0"/>
           </svg>
-          <span class="text-pink-600 ml-2">PCOS Awareness</span>
+          <span class="ml-2">PCOS Awareness</span>
         </div>
 
-        <!-- Desktop Middle Links -->
-        <div class="hidden md:flex space-x-6 text-gray-700">
-          <router-link to="/" class="hover:text-pink-600 font-bold">Home</router-link>
-          <router-link to="/about" class="hover:text-pink-600 font-bold">About PCOS</router-link>
-          <router-link to="/resources" class="hover:text-pink-600 font-bold">PCOS Resources</router-link>
+        <!-- Desktop Links -->
+        <div class="hidden md:flex space-x-6 text-gray-700 font-bold">
+          <router-link to="/" class="hover:text-pink-600">Home</router-link>
+          <router-link to="/about" class="hover:text-pink-600">About PCOS</router-link>
+          <router-link to="/resources" class="hover:text-pink-600">PCOS Resources</router-link>
         </div>
 
         <!-- Chat Button -->
         <div class="hidden md:block">
-           <router-link to="/pcosbot">
-           <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition">
-             Chat with AI Bot
-           </button>
-           </router-link>
+          <router-link to="/pcosbot">
+            <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition">
+              Chat with AI Bot
+            </button>
+          </router-link>
         </div>
 
-        <!-- Hamburger / Close Button -->
-        <button @click="toggleMenu" class="md:hidden focus:outline-none transition-all duration-200">
+        <!-- Mobile Menu Button -->
+        <button @click="toggleMenu" class="md:hidden focus:outline-none">
           <svg v-if="!isOpen" class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <!-- Hamburger icon -->
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M4 6h16M4 12h16M4 18h16" />
           </svg>
           <svg v-else class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <!-- X icon -->
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M6 18L18 6M6 6l12 12" />
           </svg>
@@ -52,41 +50,41 @@
 
       <!-- Mobile Menu -->
       <transition name="fade">
-        <div v-if="isOpen" class="md:hidden mt-4 space-y-4 text-center">
-          <router-link to="/about" class="block text-gray-700 hover:text-pink-600 font-bold">
-          About PCOS
-       </router-link>
-       <router-link to="/resources" class="block text-gray-700 hover:text-pink-600 font-bold">
-        PCOS Resources
-       </router-link>
-       <router-link to="/pcosbot">
-       <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition w-50">
-         Chat with AI Bot
-       </button>
-       </router-link>
-      </div>
+        <div v-if="isOpen" class="md:hidden mt-4 space-y-4 text-center font-bold">
+          <router-link to="/" class="block text-gray-700 hover:text-pink-600">Home</router-link>
+          <router-link to="/about" class="block text-gray-700 hover:text-pink-600">About PCOS</router-link>
+          <router-link to="/resources" class="block text-gray-700 hover:text-pink-600">PCOS Resources</router-link>
+          <router-link to="/pcosbot">
+            <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition w-48">
+              Chat with AI Bot
+            </button>
+          </router-link>
+        </div>
       </transition>
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-pink-50 py-12">
-      <!-- Text Side -->
-      <div class="container-standard flex flex-col md:flex-row items-center">
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Let’s Talk About PCOS</h1>
-        <p class="text-lg text-gray-600 mb-6">
-          Speak with our AI assistant for early insights and support around Polycystic Ovary Syndrome. It’s fast, confidential, and supportive.
-        </p>
+    <section class="bg-pink-50 py-16">
+      <div class="container-standard flex flex-col md:flex-row items-center gap-12">
+        
+        <!-- Text Side -->
+        <div class="md:w-1/2 text-center md:text-left">
+          <h1 class="text-4xl font-bold text-gray-800 mb-4">Let’s Talk About PCOS</h1>
+          <p class="text-lg text-gray-600 mb-6">
+            Speak with our AI assistant for early insights and support around Polycystic Ovary Syndrome. It’s fast, confidential, and supportive.
+          </p>
+          <router-link to="/pcosbot">
+            <button class="bg-pink-600 hover:bg-pink-300 text-white px-6 py-3 rounded-full transition">
+              Start Chatting
+            </button>
+          </router-link>
+        </div>
 
-        <router-link to="/pcosbot">
-           <button class="bg-pink-600 hover:bg-pink-300 text-white px-6 py-3 rounded-full transition">
-             Start Chatting
-           </button>
-        </router-link>
-      </div>
+        <!-- Image Side -->
+        <div class="md:w-1/2">
+          <img src="../assets/images.jpeg" alt="Female Reproductive System" class="rounded-lg shadow-md w-full max-w-md mx-auto md:mx-0" />
+        </div>
 
-      <!-- Image Side -->
-      <div class="md:w-1/2">
-        <img src="../assets/images.jpeg" alt="Female Reproductive System" class="rounded-lg shadow-md w-full" />
       </div>
     </section>
   </div>
@@ -114,4 +112,20 @@ const toggleMenu = () => {
   opacity: 0;
   transform: translateY(-10px);
 }
+
+.container-standard {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .container-standard {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 </style>
