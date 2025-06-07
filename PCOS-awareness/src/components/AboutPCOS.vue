@@ -1,12 +1,13 @@
 <template>
-  <section class="relative min-h-screen flex flex-col justify-between overflow-hidden container mx-auto px-4 py-12 font">
-    <!-- Section Title -->
-    <h1 class="text-4xl font-extrabold text-pink-600 mb-12 text-center p-4">
-      About Polycystic Ovary Syndrome (PCOS)
-    </h1>
+  <section class="relative min-h-screen flex flex-col justify-between overflow-hidden bg-white py-12">
+    <div class="container-standard font">
+      <!-- Section Title -->
+      <h1 class="text-4xl font-extrabold text-pink-600 mb-12 text-center p-4">
+        About Polycystic Ovary Syndrome (PCOS)
+      </h1>
 
-    <!-- Content Wrapper -->
-    <div class="flex flex-col md:flex-row items-center justify-between gap-10">
+      <!-- Content Wrapper -->
+      <div class="flex flex-col md:flex-row items-center justify-between gap-10">
       
       <!-- Image First on Mobile -->
       <div class="md:w-1/2 p-4 flex justify-center">
@@ -32,6 +33,7 @@
         </button>
       </div>
     </div>
+  </div>
   </section>
 </template>
 
