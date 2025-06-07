@@ -53,8 +53,9 @@
       <!-- Mobile Menu -->
       <transition name="fade">
         <div v-if="isOpen" class="md:hidden mt-4 space-y-4 text-center">
-          <a href="#about" class="block text-gray-700 hover:text-pink-600 font-bold">About PCOS</a>
-          <a href="#resources" class="block text-gray-700 hover:text-pink-600 font-bold">PCOS Resources</a>
+          <router-link to="/" class="hover:text-pink-600 font-bold">Home</router-link>
+          <router-link to="/about" class="hover:text-pink-600 font-bold">About PCOS</router-link>
+          <router-link to="/resources" class="hover:text-pink-600 font-bold">PCOS Resources</router-link>
           <button class="bg-pink-600 hover:bg-pink-300 text-white px-4 py-2 rounded-full transition w-50">
             Chat with AI Bot
           </button>
@@ -70,9 +71,12 @@
         <p class="text-lg text-gray-600 mb-6">
           Speak with our AI assistant for early insights and support around Polycystic Ovary Syndrome. It’s fast, confidential, and supportive.
         </p>
-        <button class="bg-pink-600 hover:bg-pink-300 text-white px-6 py-3 rounded-full transition">
-          Start Chatting
-        </button>
+
+        <router-link to="/pcosbot">
+           <button class="bg-pink-600 hover:bg-pink-300 text-white px-6 py-3 rounded-full transition">
+             Start Chatting
+           </button>
+        </router-link>
       </div>
 
       <!-- Image Side -->
