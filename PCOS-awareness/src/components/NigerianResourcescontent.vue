@@ -33,15 +33,11 @@
             </a> — A Nigerian support group founded by <a href="" target="_blank" class="text-pink-600 hover:underline font-medium">Sarah Olagoke Abosede</a> that is dedicated to PCOS awareness and support.
           </li>
           <li>
-            <a href="https://www.facebook.com/groups/pcosnigeria" target="_blank" class="text-pink-600 hover:underline font-medium">
-              PCOS Nigeria Support Group (Facebook)
+            <a href="https://web.facebook.com/groups/632010276957795/" target="_blank" class="text-pink-600 hover:underline font-medium">
+              PCOS Awareness Nigeria (Facebook)
             </a> — A large community of Nigerian women sharing experiences and resources.
           </li>
-          <li>
-            <a href="https://endocrineafrica.org/" target="_blank" class="text-pink-600 hover:underline font-medium">
-              Endocrine and Metabolism Society of Nigeria
-            </a> — Professional society providing resources and listings of endocrinologists in Nigeria.
-          </li>
+          
         </ul>
       </div>
 
