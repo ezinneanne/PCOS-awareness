@@ -1,0 +1,464 @@
+Sonographic Assessment and Incidence of Polycystic Ovarian Syndrome in
+Women with Infertility in Abakpa Metropolis, Enugu, Nigeria
+
+Article · December 2024
+
+DOI: 10.71007/e1j4s804
+
+4 authors, including:
+
+Nnamdi Ugwu
+
+University of Nigeria
+
+2 PUBLICATIONS   0 CITATIONS   
+
+
+All content following this page was uploaded by Nnamdi Ugwu on 10 March 2025.
+
+The user has requested enhancement of the downloaded file.
+
+Journal of Imaging and Radiation Therapeutics 1, Issue 1 (2024) https://doi.org/10.71007/e1j4s804 
+
+Journal of Imaging and Radiation 
+Therapeutics 
+
+Journal homepage: https://jirt.my/index.php/radiographer/index 
+
+Sonographic Assessment and Incidence of Polycystic Ovarian 
+Syndrome in Women with Infertility in Abakpa Metropolis, Enugu, 
+Nigeria 
+
+Chiamaka Vivian Okonkwo1, Nnamdi Edwin Ugwu1*, Kingsley Odira Omanu2, Emmanuel 
+Chinedu Omeoga3 
+
+*Corresponding author: ugwunnamdiedwin@gmail.com 
+
+1 
+
+2 
+
+3 
+
+Department of Radiation Medicine, University of Nigeria Teaching Hospital, Ituku-Ozalla, Enugu, Nigeria 
+Radiology Department, University of Benin Teaching Hospital, Ugbowo, Benin City, Nigeria 
+Radiology Department, Obafemi Awolowo University Teaching Hospital, Ile-Ife, Osun State 
+
+ARTICLE INFO 
+
+ABSTRACT 
+Keywords:  
+incidence; infertility; metropolis; polycystic 
+ovarian syndrome 
+
+Introduction:  Polycystic  ovarian  syndrome  (PCOS)  is  a  hormonal 
+disorder  that  develops  after  puberty  in  women  within  the  age  of 
+reproduction. It is one of the leading causes of infertility in women all 
+over  the  world  and  a  common  endocrine  disorder  in  females, 
+generally seen in women of reproductive age. Its exact cause is not 
+known,  but  some  of  the  risk  factors  include  genetic  factors,  insulin 
+resistance,  obesity,  and  hormonal  imbalance.  PCOS  has  a  genetic 
+component that can be passed down through the family line. Insulin 
+resistance  has  also  been  traced  to  be  one  of  the  prime  causes  of 
+PCOS, especially in obese women. 
+
+Aims:  The  study  aims  to  determine  the  incidence  of  PCOS  among 
+women presenting for ultrasound with a clinical diagnosis of primary 
+or secondary infertility within Abakpa metropolis.  
+
+Methods:  This  is  a  retrospective  study  of  100  infertility  cases 
+collected across two diagnostic centers within Abakpa metropolis. The 
+study was carried out between the months of July 2021 and July 2023.  
+Results: Out of the 100 infertility cases identified in these diagnostic 
+centers,  46  of  them  indicated  primary  infertility,  47  indicated 
+secondary  infertility  and  6  of  them  were  uncertain.  Among  the  100 
+cases  that  were  reported  to  these  centers  because  of  infertility,  31 
+(31% of them) were diagnosed with PCOS. It is therefore noted that 
+PCOS has had an incidence of 31% among women with infertility in 
+Abakpa metropolis in the last 2 years. Ovarian cysts showed the most 
+common association with PCOS. Other common associations include 
+fibroids, pelvic inflammatory disease, endometrial mass, anovulation, 
+amenorrhea and cervical cyst, oophoritis and myometrial lesions. 
+
+Conclusions:  Polycystic  Ovarian  Syndrome  has  been  identified  as 
+one of the major pathologies associated with infertility in women. In 
+this research, PCOS was found among majority of women who made 
+up  number  of  reported  infertility  cases.  PCOS  was  also  associated 
+
+with  several  comorbidities  that  were  diagnosed  using  ultrasound. 
+From this study, the  most  common comorbidity among women with 
+PCOS is ovarian cysts at 47% while the myometrial lesion is the least 
+with 1%. 
+
+1. Introduction 
+
+Polycystic ovarian syndrome (PCOS) is a hormonal disorder that develops after puberty in women 
+within the age of reproduction[1]. It is one of the leading causes of infertility in women all over the 
+world and a common endocrine disorder in females, generally seen in women of reproductive age[1]. 
+Its exact cause is not known, but some of the risk factors include genetic factors, insulin resistance, 
+obesity, and hormonal imbalance. PCOS has a genetic component that can be passed down through 
+the family line. If one is born into a family that has PCOS, there is an increased tendency to have it. 
+Insulin  resistance  has  been  traced  to  be  one  of  the  prime  causes  of  PCOS,  especially  in  obese 
+women[1].  Being  overweight  can  cause  PCOS  due  to  excess  adipose  fat,  which  predisposes  to 
+hormonal imbalance and inflammation. Lifestyle: Regular exercise helps the body burn fat, improve 
+insulin sensitivity, and balance hormonal levels. Hormonal imbalance: PCOS involves imbalances in 
+the levels of estrogen and progesterone and increased levels of androgens. 
+
+Infertility is a medical condition in which there is an involuntary failure to conceive after trying for at 
+least 12 months of unprotected sexual interaction[2]. Infertility is a universal health issue, and it has 
+been estimated that 8 to 12% of couples worldwide are infertile[2]. Estimates suggest that between 
+48  million  couples and 186  million  individuals  live  with infertility  globally;  half  of  these couples are 
+living in Sub-Saharan Africa (SSA) and South Asia[2]. According to the World Health Organization 
+(WHO), PCOS impacted 116 million women (3.4%) worldwide. Depending on the population analysis 
+and the criteria used for diagnosing PCOS in India, the range is from 3.7 to 22.5%[2]. Many studies 
+conducted on the incidence of PCOS have shown an increased incidence in low- and middle-income 
+countries, but in Nigeria, there is little to no evidence of studies showing the incidence of PCOS in 
+women  with  infertility  in  the  southeast  region  of  Nigeria,  even  when  observations  and  anecdotal 
+reports suggest a prevalence in the aforementioned region[2]. In PCOS, the ovaries usually appear 
+to be twice the normal size, are gray-white with a smooth outer cortex, and measure 0.5–1.5 cm in 
+diameter. Polycystic ovaries are characterized by the presence of up to twelve (12) immature follicles 
+9 mm in diameter, appearing as a circular area at the periphery with a central stroma. It shows a ring-
+like appearance at the periphery[3]. 
+
+Significant efforts have been made to categorize PCOS during the past few decades, yet there is 
+still debate on which criteria should be used globally. Unfortunately, the foundation required to create 
+an evidence based definition of the syndrome has not been sufficiently provided by the epidemiologic 
+and/or  fundamental  research  data  that  are  now  available.  50%  of  PCOS  afflicted  females  are 
+overweight. (5) In women with polycystic ovarian disease, obesity causes changes in type 2 diabetes 
+and impaired glucose tolerance (IGT). For young women with PCOS, hirsutism, irregular menstrual 
+cycles, and acne are the most discouraging symptoms. Although PCOS is common and has a wide 
+range of clinical symptoms, its precise pathophysiology is still not well understood. A growing amount 
+of research shows that women with PCOS are more likely than other women to experience pregnancy 
+difficulties.  Because  of  this,  PCOS  is  not  only  associated  with  metabolic  abnormalities,  irregular 
+menstrual  cycles,  or  infertility  as  has  been  previously  reported,  but  is  also  becoming  more  widely 
+acknowledged  as  a  problem  with  gestational  diabetes(GDM),  pregnancy-induced  hypertension, 
+preeclampsia, premature delivery rate, neonatal birth weight, cesarean section rate and admission to 
+a neonatal intensive care unit (NICU), which are all considered to be adverse pregnancy outcomes 
+of PCOS during pregnancy[4]. 
+
+    Depending on the diagnostic criteria standards used, PCOS prevalence has been reported to range 
+within 2.2% to 26% globally[5][6]. The three most popular diagnostic criteria for PCOS are the 1990 
+National Institutes of Health (NIH) recommendation, the 2003 Rotterdam Consensus, proposed by 
+the European Society of Human Reproduction and Embryology (ESHRE) and American Society of 
+Reproductive  Medicine  (ASRM),  and  the  2006  criteria  proposed  by  the  Androgen  Excess  Society 
+(AES)[7]. According to a thorough analysis, the prevalence under Rotterdam is  more than twice as 
+high as it was  under the 1990 NIH, with the 2006 AES rate falling somewhere in the middle. In a 
+study conducted in the United Kingdom[8], it was shown that using Rotterdam criteria rather than NIH 
+criteria resulted in an increase of 8% to 26%. When Rotterdam criteria were applied, a different study 
+in the Middle East, which supplied relevant data, showed an increase of 7.1% to 14.6%[9].  
+In a multi-country study of infertility in both developed and developing countries, the World Health 
+Organization (WHO) previously showed that the African region had a lower prevalence of anovulatory 
+infertility, which is primarily known as PCOS, as compared to more developed parts of the world[10]. 
+Increasing  amounts  of  evidence  point  to  a  connection  between  ethnicity  and  PCOS  since  various 
+ethnic  groups  have  varying  genetic  and  environmental  predispositions  to  metabolic  and  hormonal 
+disorders[11].  Two  studies  conducted  in  Nigeria  reported  the  prevalence  of  PCOS  as  18.1%  and 
+12.2%, respectively, and these studies were based on the Rotterdam criteria[12]. Therefore, given 
+the impact of PCOS on the incidence of infertility, the current study aims to investigate the incidence 
+of this syndrome with infertility based on its sonographic presentation in a selected population. 
+PCOS is seen as one of the most common reproductive disorders faced by women of reproductive 
+age.  Research  has  shown  that  90–95%  of  anovulatory  women  seeking  infertility  treatment  have 
+PCOS[13]. 
+
+There is limited research and little documentation on the trend of sonographic assessment of 
+PCOS  in  women  with  infertility,  thereby  restricting  effective  treatment  planning  and  limiting  the 
+potential for appropriate intervention to improve fertility outcomes[13]. Therefore, this retrospective 
+study focuses on the sonographic assessment and incidence of PCOS in women with infertility in the 
+Abakpa metropolis of Enugu state, Nigeria. 
+
+2. Methodology  
+2.1 Study Design 
+
+A retrospective study was used in this research. The study focused on patients who underwent 
+ultrasound examination for infertility at two diagnostic centers in Abakpa metropolis. The study 
+period spanned from July 2021 to July 2023 
+
+2.2 Study Setting 
+
+Data for study was gathered at His Grace diagnostic center and Life Chart diagnostic center in Abakpa 
+metropolis, Enugu state, South-Eastern Nigeria. The two centers were relevant as they catered to the 
+needs of majority of the people living in the metropolis. Abakpa is a densely populated residential and 
+commercial area located in Enugu East, Enugu State, Nigeria. It is one of the major suburbs of the 
+Enugu metropolis located 8km west of Akanu Ibiam International Airport and 7km north of the city 
+center. 
+
+2.3 Data Collection 
+
+Data were retrospectively extracted from patient reports recorded in both soft and hard copy formats. 
+Electronic data were retrieved using a flash drive, while hard copy records were manually extracted 
+from patient logbooks. All records collected involved patients who presented with a clinical diagnosis 
+of primary or secondary infertility and had undergone ultrasound examinations. This selection ensured 
+that only cases relevant to infertility were considered.  
+
+2.4 Variables Measured 
+
+The key variables measured included: 
+
+1.  Infertility diagnosis (primary, secondary, or uncertain). 
+2.  Sonographic  findings  related  to  PCOS,  including  the  presence  of  ovarian  cysts  and  other 
+
+associated conditions like fibroids, pelvic inflammatory disease (PID), and anovulation. 
+A  total  of  100  patient  data  points  were  analyzed,  drawn  from  infertility  cases  observed  at  the 
+diagnostic centers within the study period. 
+
+2.5 Data Analysis 
+
+The result of the research was analyzed using SPSS software version 25. Statistical tools such as 
+frequency  and  percentages  were  employed  to  summarize  and  present  the  data,  allowing  the 
+identification of key patterns, including the incidence of PCOS and its related comorbidities among 
+women with infertility. 
+3. Results  
+Out of the 100 infertility cases identified in these diagnostic centres, 46 of them came in with primary 
+infertility, 47 of them came in with secondary infertility and 6 of them were uncertain. Among the 100 
+cases that were reported to these centres as a result of infertility, 31 (31% of them) were diagnosed 
+with PCOS. It is therefore noted that PCOS has had an incidence of 31% among women with infertility 
+in Abakpa metropolis in the last 2 years. (Table 1) 
+
+Table 1: Incidence of PCOS among women with infertility in Abakpa 
+
+Infertility presentation 
+
+Frequency 
+
+Percentage (%) 
+
+Primary Infertility 
+
+Secondary Infertility 
+
+Other 
+
+Total 
+
+PCOS 
+
+Present 
+
+Absent 
+
+Total 
+
+46 
+
+47 
+
+6 
+
+100 
+
+46.0 
+
+47.0 
+
+6.0 
+
+100.0 
+
+Frequency 
+
+Percentage (%) 
+
+31 
+
+69 
+
+100 
+
+31.0 
+
+69.0 
+
+100.0 
+
+Among the 31 women diagnosed with PCOS, several comorbidities were identified through ultrasound 
+findings.  Ovarian  cysts  were  the  most  prevalent,  affecting  47%  of  the  PCOS  cases.  Fibroids 
+(myometrial mass) were found in 28% of the women. Pelvic Inflammatory Disease (PID) was present 
+in  27%.  Endometrial  mass  was  identified  in  7%  of  the  cases.  Anovulation  and  amenorrhoea  were 
+each observed in 5%. Cervical cysts were diagnosed in 4%, while enlarged ovaries were seen in 3%. 
+Myometrial lesions were the least common, found in only 1% of the cases. These findings illustrate a 
+high rate of ovarian cysts in women diagnosed with PCOS, confirming the association between this 
+condition and various reproductive comorbidities. (Table 2) 
+
+Table 4.2. Comorbidities related with the Incidence of PCOS 
+Frequency (n) 
+Comorbidities 
+
+Percentages (%) 
+
+Ovarian cysts 
+
+Myometrial mass 
+(fibroid) 
+Pelvic inflammatory 
+Disease(PID) 
+Endometrial mass 
+Anovulation 
+Amenorrhoea 
+Cervical cyst 
+
+Enlarged Ovaries 
+Myometrial lesions 
+
+47 
+
+28 
+
+27 
+
+7 
+5 
+5 
+4 
+
+3 
+1 
+
+47 
+
+28 
+
+27 
+
+7 
+5 
+5 
+4 
+
+3 
+1 
+
+4 Discussion 
+
+4.1 Incidence of PCOS among women with infertility that reported at centers in Abakpa within the last 
+2 years. 
+
+Among the 100 respondents that reported to these centers as a result of infertility, 31 (31%) of them 
+were diagnosed with PCOS. It is therefore noted that PCOS has an incidence of 31% among women 
+with infertility in Abakpa in the last 2 years. These findings are related to some other findings of other 
+researchers.  BAQAI  et  al.  (2010)  conducted  a  cross-sectional  study  to  assess  the  prevalence  of 
+PCOS  among infertile women,  according to Rotterdam  criteria,  using  1210  participants  who  came 
+into BIRDS OPD for fertility between January 2009 and December 2009. The result showed that the 
+prevalence of PCOS was identified in 496 (40.9%) out of 1210 women who visited BIRDS OPD during 
+the previous year. Farzana Arain et al. (2015) found that PCOS was found in 38.5% of female infertility 
+cases[14].  Mavondo  et  al.  (2020)  (50)  conducted  a  cross-sectional  survey  on  the  prevalence  and 
+ultrasound  presentations  of  polycystic  ovarian  syndrome  in  black  African  women  presenting  with 
+infertility. The study showed 30.4% of the clients had polycystic ovaries[15]. Asgharnia, Mirblook, and 
+Soltani  (2011)  who  conducted  a  cross-sectional  study  on  the  prevalence  of  Polycystic  Ovary 
+Syndrome (PCOS) in High School Students in Rasht in 2009 According to NIH Criteria, found that 
+PCOS  was  diagnosed  in  11.3%  of  the  girls[16].  Also,  Shreeyanta  K.C.  (2018)  carried  out  a  study 
+aimed  to  find  out  the  prevalence  of  polycystic  ovarian  syndrome  among  medical  undergraduates. 
+Results showed that out of 381 participants, the prevalence of polycystic ovarian syndrome was found 
+to be 35 (9.18%)[17]. A 2022 systematic review on the prevalence of PCOS in India reported 10% 
+using Rotterdam's criteria and AES criteria and 5.8% using the NIH criteria. The study concluded that 
+evidence  from  the  research  should  be  used  by  policymakers,  government  organizations,  and 
+healthcare  professionals  to  establish  guidelines  for  the  management  and  awareness  of  PCOS  in 
+India[18]. 
+
+4.2  Comorbidities  with  results  and  data  in  the  determination  of  the  incidence  of  PCOS  in  Abakpa 
+metropolis  
+
+The  researchers  identified  other  pathologies  found  among  the  women,  along  with  PCOS.  These 
+included:  fibroids,  found  in  28%  of  the  women;  Pelvic  inflammatory  disease  found  in  27%  of  the 
+patients; and ovarian cysts found in 47% of the women.  Also found among the women were enlarged 
+ovaries (3%). Other comorbidities like cervical cysts were also found in 4% of the women.  Five of the 
+women reported having amenorrhea. Also, five of the women reported anovulation.  This is in line 
+with the study carried out by Farzana Arain et al. (2015), which revealed that together with PCOS, 
+44% of the females had pelvic inflammatory disease, and also with the study by Mavondo et al. (2020), 
+which reported that 46.4% had other pelvic pathology, and the rest, 23.2%, had normal pelvis scan 
+results among black African women presented with infertility that had PCOS[14], [15]. According to 
+our  findings  majority  of  women  who  were  infertile  and  diagnosed  of  PCOS  had  ovarian  cysts  and 
+fibroids. This could be as a result that women with PCOS could have high levels of male hormones 
+and irregular or no periods[19]. 
+
+5.0 Conclusion 
+
+Polycystic Ovarian  Syndrome  has  been  identified  as  one  of the major  pathologies associated  with 
+infertility  in  women.  In  this  research,  PCOS  was  found  among  majority  of  women  who  made  up 
+number of reported infertility cases. PCOS was also associated with several comorbidities that were 
+diagnosed using ultrasound. 
+
+
+References 
+[1] E. Diamanti-Kandarakis and A. Dunaif, “Insulin Resistance and the Polycystic Ovary Syndrome 
+Revisited: An Update on Mechanisms and Implications,” Endocr. Rev., vol. 33, no. 6, pp. 981–
+1030, Dec. 2012, doi: 10.1210/er.2011-1034. 
+
+[2]  W.  Ombelet,  I.  Cooke,  S.  Dyer,  G.  Serour,  and  P.  Devroey,  “Infertility  and  the  provision  of 
+infertility medical services in developing countries.,” Hum. Reprod. Update, vol. 14, no. 6, pp. 
+605–21, 2008, doi: 10.1093/humupd/dmn042. 
+
+[3]  M. C., N. K. M., U. K. P., J. K., S. K. V., and D. K. P., “POLYCYSTIC OVARY SYNDROME 
+(PCOS)–AN  OVERVIEW,”  Int.  J.  Curr.  Pharm.  Res.,  vol.  10,  no.  6,  p.  5,  Nov.  2018,  doi: 
+10.22159/ijcpr.2018v10i6.30969. 
+
+[4] R.  J.  Norman,  L.  Masters,  C.  R.  Milner,  J.  X.  Wang,  and  M.  J.  Davies,  “Relative  risk  of 
+conversion  from  normoglycaemia  to  impaired  glucose  tolerance  or  non-insulin  dependent 
+diabetes mellitus in polycystic ovarian syndrome.,” Hum. Reprod., vol. 16, no. 9, pp. 1995–8, 
+Sep. 2001, doi: 10.1093/humrep/16.9.1995. 
+
+[5] V.  Kumarapeli,  R.  de  A.  Seneviratne,  C.  N.  Wijeyaratne,  R.  M.  S.  C.  Yapa,  and  S.  H. 
+Dodampahala,  “A  simple  screening  approach  for  assessing  community  prevalence  and 
+phenotype  of  polycystic  ovary  syndrome  in  a  semi-urban  population  in  Sri  Lanka.,”  Am.  J. 
+Epidemiol., vol. 168, no. 3, pp. 321–8, Aug. 2008, doi: 10.1093/aje/kwn137. 
+
+[6]  W. A. March, V. M. Moore, K. J. Willson, D. I. W. Phillips, R. J. Norman, and M. J. Davies, “The 
+prevalence of polycystic ovary syndrome in a community sample assessed under contrasting 
+diagnostic  criteria.,”  Hum.  Reprod.,  vol.  25,  no.  2,  pp.  544–51,  Feb.  2010,  doi: 
+10.1093/humrep/dep399. 
+
+[7] R. Azziz, “Diagnostic criteria for polycystic ovary syndrome: A reappraisal,” Fertil. Steril., vol. 
+83, no. 5, pp. 1343–1346, May 2005, doi: 10.1016/j.fertnstert.2005.01.085. 
+
+
+[8] K.  F.  Michelmore,  A.  H.  Balen,  D.  B.  Dunger,  and  M.  P.  Vessey,  “Polycystic  ovaries  and 
+associated  clinical  and biochemical  features  in  young  women.,”  Clin.  Endocrinol. (Oxf).,  vol. 
+51, no. 6, pp. 779–86, Dec. 1999, doi: 10.1046/j.1365-2265.1999.00886.x.
+
+[9] F.  R.  Tehrani,  M.  Simbar,  M.  Tohidi,  F.  Hosseinpanah,  and  F.  Azizi,  “The  prevalence  of 
+polycystic  ovary  syndrome  in  a  community  sample  of  Iranian  population:  Iranian  PCOS 
+prevalence study.,” Reprod. Biol. Endocrinol., vol. 9, p. 39, Mar. 2011, doi: 10.1186/1477-7827-
+9-39.
+
+[10]  W. Cates, T. M. Farley, and P. J. Rowe, “Worldwide patterns of infertility: is Africa different?,” 
+Lancet  (London,  England),  vol.  2,  no.  8455,  pp.  596–8,  Sep.  1985,  doi:  10.1016/s0140-
+6736(85)90594-x. 
+
+[11]  Y. V Louwers, O. Lao, B. C. J. M. Fauser, M. Kayser, and J. S. E. Laven, “The impact of self-
+reported  ethnicity  versus  genetic  ancestry  on  phenotypic  characteristics  of  polycystic  ovary 
+syndrome (PCOS).,” J. Clin. Endocrinol. Metab., vol. 99, no. 10, pp. E2107-16, Oct. 2014, doi: 
+
+[12]  L. Omokanye, O. Ibiwoye-Jaiyeola, A. W. O. Olatinwo, I. Abdul, K. Durowade, and S. Biliaminu, 
+“Polycystic ovarian syndrome: Analysis of management outcomes among infertile women at a 
+public  health  institution  in  nigeria,”  Niger.  J.  Gen.  Pract.,  vol.  13,  no.  2,  p.  44,  2015,  doi: 
+10.4103/1118-4647.170152. 
+
+[13]  C.  C.  Dennett  and  J.  Simon,  “The  role  of  polycystic  ovary  syndrome  in  reproductive  and 
+metabolic health: overview and approaches for treatment.,” Diabetes Spectr., vol. 28, no. 2, pp. 
+116–20, May 2015, doi: 10.2337/diaspect.28.2.116. 
+
+[14]  F. Arain, N. Arif, and H. Halepota, “Frequency and outcome of treatment in polycystic ovaries 
+infertility.,”  Pakistan  J.  Med.  Sci.,  vol.  31,  no.  3,  pp.  694–9,  2015,  doi: related 
+10.12669/pjms.313.8003. 
+
+[15]  J. Mavondo, G. A. Mavondo, F. F. Chikuse, B. N. Mkhwanazi, P. Mdlongwa, and B. T. Rakata, 
+“Prevalence  and  Ultrasound  Presentations  of  Polycystic Ovarian  Syndrome  in Black  African 
+Women  Presenting  with  Infertility:  A  Case  of  Women  in  Referral  Health  Institutions  in 
+Bulawayo, Zimbabwe,” Asian J. Pregnancy Childbirth, vol. 3, no. 1, pp. 124–140, 2020, doi: 
+10.9734/ajpcb/2020/v3i133. 
+
+[16]  M.  Asgharnia,  F.  Mirblook,  and  M.  Ahmad  Soltani,  “The  Prevalence  of  Polycystic  Ovary 
+Syndrome (PCOS) in High School Students in Rasht in 2009 According to NIH Criteria.,” Int. J. 
+Fertil.  Steril., 
+[Online].  Available: 
+http://www.ncbi.nlm.nih.gov/pubmed/24851175 vol.  4,  no.  4,  pp.  156–9, Jan.  2011, 
+
+[17]  S. Kc et al., “Prevalence of Polycystic Ovarian Syndrome among Medical Students of a Tertiary 
+Care Hospital.,” JNMA. J. Nepal Med. Assoc., vol. 58, no. 225, pp. 297–300, May 2020, doi: 
+10.31729/jnma.4885. 
+
+[18]  M.  D.  Bharali,  R.  Rajendran,  J.  Goswami,  K.  Singal,  and  V.  Rajendran,  “Prevalence  of 
+Polycystic Ovarian Syndrome in India: A Systematic Review and Meta-Analysis.,” Cureus, vol. 
+14, no. 12, p. e32351, Dec. 2022, doi: 10.7759/cureus.32351. 
+
+[19]  H. M. Sadeghi et al., “Polycystic Ovary Syndrome: A Comprehensive Review of Pathogenesis, 
+Management,  and  Drug  Repurposing.,”  Int.  J.  Mol.  Sci.,  vol.  23,  no.  2,  Jan.  2022,  doi: 
+10.3390/ijms23020583. 
