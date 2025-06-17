@@ -51,10 +51,11 @@
 
 <script setup>
 import { ref, nextTick, onMounted } from 'vue';
+import axios from 'axios';
 
 // --- STATE ---
 const userInput = ref('');
-const chatHistory = ref([ // For UI display only
+const chatHistory = ref([
   {
     id: Date.now(),
     role: 'ai',
@@ -64,28 +65,15 @@ const chatHistory = ref([ // For UI display only
 const isLoading = ref(false);
 const chatMessagesContainer = ref(null);
 
-// --- API CONFIGURATION ---
-// Storing the system prompt separately
-const systemPrompt = "You are a helpful, empathetic, and knowledgeable AI assistant for a PCOS (Polycystic Ovary Syndrome) awareness website specifically targeted at Nigerian women. Your goal is to provide accurate information about PCOS, answer questions clearly, and gently encourage users to consult with healthcare professionals in Nigeria for diagnosis and treatment. Be mindful of potential cultural sensitivities and local context. Do not provide medical diagnoses or treatment plans. If asked for medical advice, politely decline and reiterate the importance of seeing a doctor. Keep responses concise and easy to understand. You can mention common symptoms, lifestyle adjustments, and the importance of medical consultation. Refer to 'Nigerian women' or 'women in Nigeria' when relevant and appropriate to personalize the interaction.";
-
-// API history should start empty and only contain user/model turns
-const apiChatHistory = ref([]);
-
 // --- METHODS ---
 const sendMessage = async () => {
   const trimmedInput = userInput.value.trim();
   if (!trimmedInput || isLoading.value) return;
 
-  // 1. Update UI and API History immediately
   chatHistory.value.push({
     id: Date.now(),
     role: 'user',
     text: trimmedInput
-  });
-
-  apiChatHistory.value.push({
-    role: "user",
-    parts: [{ text: trimmedInput }]
   });
 
   userInput.value = '';
@@ -93,67 +81,23 @@ const sendMessage = async () => {
   scrollToBottom();
 
   try {
-    // 2. Prepare API request
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+    const response = await axios.post('/api/chat/query', { message: trimmedInput });
 
-    const payload = {
-      contents: apiChatHistory.value,
-      systemInstruction: {
-        parts: [{ text: systemPrompt }]
-      },
-      generationConfig: {
-        temperature: 0.7,
-        topP: 0.9,
-        topK: 40,
-        candidateCount: 1
-      }
-    };
+    const aiResponseText = response.data.response || "Sorry, I couldn't get a response. Please try again.";
 
-    // 3. Make the API call
-    const response = await fetch(apiUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    });
-
-    if (!response.ok) {
-      const errorData = await response.json();
-      console.error("API Error:", errorData);
-      throw new Error(errorData.error?.message || 'An unknown API error occurred');
-    }
-
-    const result = await response.json();
-    let aiResponseText = "Sorry, I couldn't get a response. Please try again.";
-
-    if (result.candidates?.[0]?.content?.parts?.[0]?.text) {
-      aiResponseText = result.candidates[0].content.parts[0].text;
-    } else {
-      console.warn("Unexpected API response structure:", result);
-    }
-
-    // 4. Update UI and API History with the AI's response
     chatHistory.value.push({
       id: Date.now() + 1,
       role: 'ai',
       text: aiResponseText
     });
 
-    apiChatHistory.value.push({
-      role: "model",
-      parts: [{ text: aiResponseText }]
-    });
-
   } catch (error) {
-    console.error('Error sending message to AI:', error);
-    // Display error in the chat UI
+    console.error('Error contacting backend:', error);
     chatHistory.value.push({
       id: Date.now() + 1,
       role: 'ai',
-      text: `There was an error: ${error.message}. Please try again.`
+      text: `There was an error: ${error.message}. Please try again later.`
     });
-    // IMPORTANT: Remove the last user message from the API history to prevent a broken conversation
-    apiChatHistory.value.pop();
   } finally {
     isLoading.value = false;
     scrollToBottom();
@@ -171,7 +115,10 @@ const scrollToBottom = () => {
 onMounted(() => {
   scrollToBottom();
 });
+
+//i have no acne or irregular period does that mean no pcos
 </script>
+
 
 <style scoped>
 

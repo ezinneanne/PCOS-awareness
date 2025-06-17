@@ -13,7 +13,7 @@ router = APIRouter()
 class Message(BaseModel):
     message: str
 
-@router.post("/")
+@router.post("/query")
 async def chat(message: Message):
     answer = query_rag(message.message)
     return {"response": answer}

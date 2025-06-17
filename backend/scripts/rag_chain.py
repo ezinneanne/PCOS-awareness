@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
@@ -15,6 +16,13 @@ load_dotenv(dotenv_path)
 
 # Configure Gemini LLM
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
+from google.generativeai import list_models
+
+models = list_models()
+for model in models:
+    print(model.name)
+
 
 def load_documents():
     docs = []
@@ -46,12 +54,14 @@ def build_vectorstore():
 def load_vectorstore():
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
     vectordb_path = os.path.join(project_root, "vectordb")
-    return FAISS.load_local(vectordb_path, embeddings)
+    return FAISS.load_local(vectordb_path, embeddings, allow_dangerous_deserialization=True)
 
 def query_rag(question):
     db = load_vectorstore()
     qa = RetrievalQA.from_chain_type(
-        llm=genai.GenerativeModel("gemini-pro"),
+        llm = ChatGoogleGenerativeAI(model="gemini-pro", 
+                                 temperature=0.3, 
+                                 convert_system_message_to_human=True),
         retriever=db.as_retriever(),
         return_source_documents=False
     )
