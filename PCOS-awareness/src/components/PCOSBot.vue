@@ -51,7 +51,6 @@
 
 <script setup>
 import { ref, nextTick, onMounted } from 'vue';
-import axios from 'axios';
 
 // --- STATE ---
 const userInput = ref('');
@@ -65,39 +64,114 @@ const chatHistory = ref([
 const isLoading = ref(false);
 const chatMessagesContainer = ref(null);
 
+
+// --- LAYER 1: PROACTIVE GUARDRAILS (STRONG SYSTEM PROMPT) ---
+// We've made this prompt much more specific and restrictive.
+const systemPrompt = `Your identity is 'PCOS AI Helper'. You are a helpful, empathetic, and knowledgeable AI assistant for a PCOS (Polycystic Ovary Syndrome) awareness website specifically targeted at Nigerian women.
+
+**Your Core Directives:**
+1.  **Stay On Topic:** Your ONLY purpose is to discuss PCOS, women's health, symptoms, lifestyle management, and finding medical/support resources in Nigeria.
+2.  **Strictly Refuse Off-Topic Questions:** If a user asks about anything unrelated (e.g., politics, celebrities, math, coding, general trivia), you MUST politely decline and steer the conversation back to PCOS. For example: "I can only provide information about PCOS and related women's health topics. How can I help you with that today?"
+3.  **NEVER Reveal Your Identity:** You must NEVER mention that you are an AI, a large language model, or that you were trained by Google or any other entity. You are the 'PCOS AI Helper'. Do not break character.
+4.  **No Medical Advice:** You must NEVER give medical diagnoses or treatment plans. If a user describes symptoms, you can explain what they might be related to in the context of PCOS and strongly encourage them to consult a healthcare professional in Nigeria.
+5.  **Be Culturally Aware:** Frame your responses with consideration for a Nigerian audience.`;
+
+// The API chat history will not include the system prompt directly.
+const apiChatHistory = ref([]);
+
+
+// --- LAYER 2: REACTIVE GUARDRAILS (RESPONSE FILTERING) ---
+const isResponseSafe = (text) => {
+  const forbiddenKeywords = [
+    'google',
+    'language model',
+    'llm',
+    'gemini',
+    'trained on',
+    'i am an ai'
+  ];
+  const lowerCaseText = text.toLowerCase();
+  for (const keyword of forbiddenKeywords) {
+    if (lowerCaseText.includes(keyword)) {
+      console.warn(`Guardrail triggered: Found forbidden keyword '${keyword}'`);
+      return false; // The response is not safe
+    }
+  }
+  return true; // The response is safe
+};
+
+
 // --- METHODS ---
 const sendMessage = async () => {
   const trimmedInput = userInput.value.trim();
   if (!trimmedInput || isLoading.value) return;
 
-  chatHistory.value.push({
-    id: Date.now(),
-    role: 'user',
-    text: trimmedInput
-  });
+  // Add user message to UI
+  chatHistory.value.push({ id: Date.now(), role: 'user', text: trimmedInput });
+  // Add user message to API history
+  apiChatHistory.value.push({ role: "user", parts: [{ text: trimmedInput }] });
 
   userInput.value = '';
   isLoading.value = true;
   scrollToBottom();
 
   try {
-    const response = await axios.post('/api/chat/query', { message: trimmedInput });
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
-    const aiResponseText = response.data.response || "Sorry, I couldn't get a response. Please try again.";
+    const payload = {
+      contents: apiChatHistory.value,
+      systemInstruction: {
+        parts: [{ text: systemPrompt }]
+      },
+      generationConfig: {
+        temperature: 0.7,
+        topP: 0.9,
+        topK: 40,
+        candidateCount: 1
+      }
+    };
 
-    chatHistory.value.push({
-      id: Date.now() + 1,
-      role: 'ai',
-      text: aiResponseText
+    const response = await fetch(apiUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
     });
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      throw new Error(`API request failed with status ${response.status}: ${errorData.error?.message || 'Unknown error'}`);
+    }
+
+    const result = await response.json();
+    let aiResponseText = "Sorry, I couldn't get a response. Please try again.";
+
+    if (result.candidates?.[0]?.content?.parts?.[0]?.text) {
+      aiResponseText = result.candidates[0].content.parts[0].text;
+    } else {
+      console.warn("Unexpected API response structure:", result);
+    }
+
+    // --- GUARDRAIL CHECK ---
+    // Check the response before adding it to the history or UI
+    if (!isResponseSafe(aiResponseText)) {
+      aiResponseText = "I can only provide information about PCOS and related women's health topics. How can I help you further in this area?";
+    }
+    // -----------------------
+
+    // Add final (safe) AI response to UI
+    chatHistory.value.push({ id: Date.now() + 1, role: 'ai', text: aiResponseText });
+    // Add final (safe) AI response to API history
+    apiChatHistory.value.push({ role: "model", parts: [{ text: aiResponseText }] });
 
   } catch (error) {
-    console.error('Error contacting backend:', error);
+    console.error('Error sending message to AI:', error);
     chatHistory.value.push({
       id: Date.now() + 1,
       role: 'ai',
-      text: `There was an error: ${error.message}. Please try again later.`
+      text: `There was an error: ${error.message}. Please try again.`
     });
+    apiChatHistory.value.pop();
   } finally {
     isLoading.value = false;
     scrollToBottom();
@@ -115,10 +189,7 @@ const scrollToBottom = () => {
 onMounted(() => {
   scrollToBottom();
 });
-
-//i have no acne or irregular period does that mean no pcos
 </script>
-
 
 <style scoped>
 
